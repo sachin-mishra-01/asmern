@@ -82,10 +82,10 @@ npm install
 
 Add `.env`:
 ```env
-PORT=5000
+PORT=
 MONGO_URI=your_mongo_uri
 JWT_SECRET=your_jwt_secret
-CLIENT_URL=http://localhost:5173
+CLIENT_URL=
 ```
 
 Run:
@@ -103,7 +103,7 @@ npm install
 
 Add `.env`:
 ```env
-VITE_API_BASE=http://localhost:5000/api
+VITE_API_BASE=
 ```
 
 Run:
@@ -178,7 +178,4 @@ We use **Shared Schema with `tenantId` field**:
 
 ---
 
-✨ **Live Demo Links (update after deploy):**  
-- Frontend: https://fabnotes.vercel.app  
-- Backend API: https://fabnotes-api.vercel.app/api  
-- Health Check: https://fabnotes-api.vercel.app/api/health  
+
